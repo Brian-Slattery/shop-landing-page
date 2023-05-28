@@ -1,0 +1,120 @@
+body,html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+/*top of page*/
+#toptop3rdofpage{
+    background-color: rgb(30, 30, 30);}
+
+/*topline*/
+
+#topline-content {
+width: auto;
+height: 100px;
+background-color: rgb(30, 30, 30);
+/*border-bottom: 2px solid white;*/
+display: flex;
+flex-wrap:nowrap;
+justify-content: space-evenly;
+}
+
+#logo{
+    height: 100px;
+    display: block;
+    margin-left: 10px;
+    flex-grow: 0;
+    align-self: flex-start;
+    flex-basis:5%;
+    gap: 30px;
+padding: 5px;}
+
+#searchbar{
+height: 40px;
+font-size: 20px;
+border-radius: 20px;
+margin-left: 120px;
+margin-right: 40px;
+width: 350px;
+flex-grow: 0;
+align-self: center;
+color: aliceblue;
+border-color: aliceblue;
+transition: all 0.3s ease;
+background-color: rgb(80, 80, 80);}
+
+#searchbar:placeholder-shown{
+    text-align: center;
+    font-size: 20px;}
+
+.shopcontactbuttons{
+    width: 120px;
+    gap: 20px;
+    text-align: center;
+    align-self: center;
+    padding:20px;
+    color: aliceblue;
+    background-color: rgb(80, 80, 80);
+    font-size: 25px;
+    margin:0px;
+    border-radius: 20px;
+    transition: all 0.3s ease;}
+
+#bottom-content{
+background-color: rgb(30, 30, 30);
+display: flex;
+flex-direction: row;
+height: 300px;
+justify-content:space-around;
+
+/*justify-content: center;
+justify-items: center;*/
+}
+
+.nameandquote{
+display: flex;
+
+flex-direction: column;
+justify-items: center;
+margin-right: 200px;
+margin-left: 200px;
+margin-bottom: 0px;
+}
+
+#shopname{
+flex: 1;
+font-size: 50px;
+text-decoration: underline;
+text-align: center;
+width: 500px;
+height:40px;
+color: aliceblue;
+}
+
+#quote{
+    flex: 1;
+    color: aliceblue;
+    font-size: 30px;
+    margin-bottom: 40px;
+    align-self: center;
+    justify-self: center;
+    width: 500px;
+   text-align: center;
+
+}
+#photoandphotoquote{
+box-sizing: content-box;
+width: 400px;
+height: 200px;
+border: 3px solid rgb(80, 80, 80);
+margin-right: 50px;
+margin-top: 30px;
+display: flex;
+justify-self: center;
+align-items: center;
+}
